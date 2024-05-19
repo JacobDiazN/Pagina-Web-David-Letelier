@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Music Videos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Font Awesome -->
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"/>
+
+        <!-- Boostrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"/>
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+
+        <!-- Biblioteca de toastify.js -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+        <!-- CSS Personalizado -->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/img/img_Logos/logo3.1.png" type="image/png">
+    </head>
+    <body class="bg-dark2">        
+        <header id="inicio">
+            <nav class="container navbar navbar-expand-lg navbar-light fixed-top gris-800">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex align-items-center mx-1" href="#">
+                        <img src="assets/img/img_Logos/logo3.1.png" alt="Logo" style="max-width: 40px; margin-right: 10px;">
+                        <span class="text-white raleway-regular fs-20">David Letelier <a href="https://www.instagram.com/dave_letelier/" target="_blank">
+                            <img src="assets/img/img_Redes_Sociales/icons8-instagram-100-removebg-preview.png" alt="instagram" style="max-width: 30px; margin-right: 10px;">
+                        </a></span>
+                    </a>
+                    <button class="navbar-toggler custom-toggler mx-3" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon custom-toggler"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link px-3 text-white raleway-regular fs-20" href="index.html">Home</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link px-3 text-light raleway-regular fs-20" href="miHistoria.html">About</a>
+                            </li>                          
+                            <li class="nav-item">
+                                <a class="nav-link px-3 text-white raleway-regular fs-20" href="#contacto">Contact</a>
+                            </li>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle text-light" href="#my_work" type="button" data-bs-toggle="dropdown" aria-expanded="false">My Work</button>
+                                <ul class="dropdown-menu gris-500">
+                                    <li class="nav-item"><a class="dropdown-item gris-500 roboto-medium" href="lyricVideos.html">Lyric Videos</a></li>
+                                    <li class="nav-item"><a class="dropdown-item gris-500 roboto-medium" href="liveVisual.html">Visualizers & Live Visual</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <br><br><br><br><br>
+        <main>
+            <section class="container pb-5">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item carousel_item active">
+                            <img src="assets/img/img_Carrusel/carrusel_music_videos/Somberwind-The Spell.png" class="BorderRaidus d-block w-100" alt="...">
+                            <div class="content  d-md-block">
+                                <div class="carousel_title animation-delay-1 hidden">SOMBERWIND</div>
+                                <div class="carousel_topic animation-delay-2 hidden">The Spell</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel_item">
+                            <img src="assets/img/img_Carrusel/carrusel_music_videos/EMOLECULE - Prison Planet (OFFICIAL VIDEO).png" class="BorderRaidus d-block w-100" alt="...">
+                            <div class="content  d-md-block">
+                                <div class="carousel_title animation-delay-1 hidden">EMOLECULE</div>
+                                <div class="carousel_topic animation-delay-2 hidden">Prison Planet</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel_item">
+                            <img src="assets/img/img_Carrusel/carrusel_music_videos/helltenced - quality in hate (OFFICIAL MUSIC VIDEO).png" class="BorderRaidus d-block w-100" alt="...">
+                            <div class="content  d-md-block">
+                                <div class="carousel_title animation-delay-1 hidden">HELLTENCED</div>
+                                <div class="carousel_topic animation-delay-2 hidden">Quality In Hate</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel_item">
+                            <img src="assets/img/img_Carrusel/carrusel_music_videos/Eilera - Male Female Balance (official video).png" class="BorderRaidus d-block w-100" alt="...">
+                            <div class="content  d-md-block">
+                                <div class="carousel_title animation-delay-1 hidden">EILERA</div>
+                                <div class="carousel_topic animation-delay-2 hidden">Male Female Balance</div>
+                            </div>
+                        </div>    
+                        <div class="carousel-item carousel_item">
+                            <img src="assets/img/img_Carrusel/carrusel_music_videos/A New Dawn - Green Eyes (feat. Kevin Martin from Candlebox).png" class="BorderRaidus d-block w-100" alt="...">
+                            <div class="content  d-md-block">
+                                <div class="carousel_title animation-delay-1 hidden">A NEW DAWN</div>
+                                <div class="carousel_topic animation-delay-2 hidden">Green Eyes</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel_item">
+                            <img src="assets/img/img_Carrusel/carrusel_music_videos/SCAR SYMMETRY - Xenotaph (OFFICIAL MUSIC VIDEO).png" class="BorderRaidus d-block w-100" alt="...">
+                            <div class="content  d-md-block">
+                                <div class="carousel_title animation-delay-1 hidden">SCAR SYMMETRY</div>
+                                <div class="carousel_topic animation-delay-2 hidden">Xenotaph</div>
+                            </div>
+                        </div>                    
+                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span id="prev" class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span id="next" class="visually-hidden">Next</span>
+                        </button>
+                </div>
+            </section>  
+            <script>
+                // Función para avanzar al siguiente slide del carrusel cada 3000 milisegundos (5 segundos)
+                setInterval(function(){
+                    document.querySelector('#carouselExampleFade .carousel-control-next').click();
+                }, 6500);
+            </script>          
+            <hr class=" container text-light">
+            <section class="container hide-on-small-screen my-5">
+                <div class="text-center text-white">
+                    <h4 class="roboto-medium">Music Video Projects</h4>
+                </div>
+            </section>
+            <section id="My Projects" class="container hide-on-small-screen pb-5">
+                <div class="row justify-content-center gy-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID1" style="width: 10%;">
+                            </div>                            
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>SCAR SYMMETRY</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">                                    
+                                    <video poster="assets/img/img_Music_Videos/SCAR SYMMETRY Xenotaph (OFFICIAL MUSIC VIDEO).png"
+                                    src="assets/videos/VIDEOS YOUTUBE/MusicVideos/SCAR SYMMETRY  Xenotaph OFFICIAL MUSIC VIDEO.mp4" class="object-fit-contain"  style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "Official music video of @scarsymmetry  's song 'Xenotaph"!
+                                    'Xenotaph' is part of Scar Symmetry new album 'The Singularity (Phase II - Xenotaph)"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID2" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>A NEW DAWN</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video poster="assets/img/img_Music_Videos/A New Dawn Green Eyes (feat. Kevin Martin from Candlebox).png" 
+                                    src="assets/videos/VIDEOS YOUTUBE/MusicVideos/A New Dawn  Green Eyes feat Kevin Martin from Candlebox.mp4" class="object-fit-contain" style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "A New Dawn - Green Eyes (feat. Kevin Martin from Candlebox)"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID3" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>EILERA</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video poster="assets/img/img_Music_Videos/Eilera Male Female Balance (official video).png" 
+                                    src="assets/videos/VIDEOS YOUTUBE/MusicVideos/Eilera  Male Female Balance official video.mp4" class="object-fit-contain" style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "Eilera - Male Female Balance (official video)"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container hide-on-small-screen pb-5">
+                <div class="row justify-content-center gy-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID4" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>HELLTENCED</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video poster="assets/img/img_Music_Videos/helltenced quality in hate (OFFICIAL MUSIC VIDEO).png" 
+                                    src="assets/videos/VIDEOS YOUTUBE/MusicVideos/helltenced  quality in hate OFFICIAL MUSIC VIDEO.mp4" class="object-fit-contain" style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "helltenced - quality in hate (OFFICIAL MUSIC VIDEO)"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID5" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>SOMBERWIND</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video poster="assets/img/img_Music_Videos/Somberwind The Spell.png" 
+                                    src="assets/videos/VIDEOS YOUTUBE/MusicVideos/SomberwindThe Spell_v.mp4" class="object-fit-contain" style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "Somberwind - The Spell-From 'Remain' album.
+                                    (April 2021 - Sleaszy Rider Records)
+                                    Filmed at Attic records during December 2020 and January 2021"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID6" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>EMULECULE</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video poster="assets/img/img_Music_Videos/EMOLECULE Prison Planet (OFFICIAL VIDEO).png" 
+                                    src="assets/videos/VIDEOS YOUTUBE/MusicVideos/EMOLECULE Prison Planet (OFFICIAL VIDEO).mp4" class="object-fit-contain" style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "EMOLECULE - Prison Planet (OFFICIAL VIDEO)
+                                    Taken from the Album "The Architect", out February 10th, 2023"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <div class="container pb-2" action="https://www.instagram.com/dave_letelier/" target="_blank" method="post">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-5">
+                    <button id="ver mas" type="submit" class="btn gris-600 text-white"><a class="text-light" href="https://www.instagram.com/dave_letelier/" target="_blank">See More</a></button>
+                </div>
+            </div>
+            <hr class=" container text-light">
+            <section class="container my-3">
+                <div class="text-center text-light mt-4 mb-4 pt-5">
+                    <h4 class="roboto-medium">Contact</h4>
+                </div>
+            </section>
+            <section id="contacto" class="pb-5">
+                <div>
+                    <form id="formularioContacto" class="d-flex justify-center" action="https://formsubmit.co/contact@davidletelier.com" method="post" >
+                        <div class="container" style="width: 56rem;">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label text-light roboto-light">Name:</label>
+                                <input type="text" name="name" class="form-control" id="nombre4" placeholder="Write your name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label text-light roboto-light">Email:</label>
+                                <input type="email" name="email" class="form-control" id="correo4" placeholder="Write Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label text-light roboto-light">Message:</label>
+                                <textarea  name="comments" class="form-control" id="mensaje4" rows="5" placeholder="Write your Message"></textarea>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-5">
+                                <button id="enviar" type="submit"  class="btn gris-600 text-white">Send</button>
+                            </div>
+                            <input type="hidden" name="_next" value="https://davidletelier.com/musicVideos.html">
+                            <input type="hidden" name="_captcha" value="false">
+                        </div>                        
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="gris-800 py-3">   
+            <section class="container">              
+                <div class="row justify-content-center">
+                    <div class="col-auto lobster-regular mx-4 py-4">
+                        <div class="text-center raleway-regular fs-20 text-light">
+                            <span>Chile © 2024 Jacob Diaz - Web Designer</span>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contact Me</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content gris-500">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Jacob Díaz</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div style="width: 50%; margin: 0 auto; text-align: center">
+                                    <div>
+                                        <img src="assets/img/img_Jacob/photoJacob.jpeg" class="img-fluid BorderRaidus" alt="">
+                                    </div>
+                                </div> 
+                                <form id="formularioContacto2" action="https://formsubmit.co/contactovimedia@gmail.com" method="post">
+                                    <div class="mb-3">
+                                        <label for="correo" class="col-form-label">Email:</label>
+                                        <input type="email" name="email" class="form-control" id="correo3" placeholder="Write your Email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="mensaje" class="col-form-label">Message:</label>
+                                        <textarea name="comments" class="form-control" id="mensaje3" placeholder="Write your Message"></textarea>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button id="enviar" type="submit" class="btn gris-600 text-light">Send</button>                          
+                                    </div>
+                                    <input type="hidden" name="_next" value="https://davidletelier.com/musicVideos.html">
+                                    <input type="hidden" name="_captcha" value="false">
+                                </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>           
+        </footer>
+        <!-- audio de fondo -->
+        <!--<audio id="backgroundAudio" autoplay loop>
+            <source src="assets/audio/audio_fondo.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>-->
+        <!-- jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Boostrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous">
+        </script>  
+        <script src="assets/js/script.js"></script>
+        <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
+        <!-- Plugin Equal Heights, este plugin nos ayuda a que las card siempre tengan el mismo tamaño con el resto independiente de su contenido-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+    </body>
+</html>

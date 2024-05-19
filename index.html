@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Font Awesome -->
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"/>
+
+        <!-- Boostrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"/>
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+
+        <!-- Biblioteca de toastify.js -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+        <!-- CSS Personalizado -->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/img/img_Logos/logo3.1.png" type="image/png">
+    </head>
+    <body class="bg-dark2">        
+        <header class="pb-5" id="inicio">
+            <nav class="container navbar navbar-expand-lg navbar-light fixed-top gris-800">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex align-items-center mx-1" href="#">
+                        <img src="assets/img/img_Logos/logo3.1.png" alt="Logo" style="max-width: 40px; margin-right: 10px;">
+                        <span class="text-light raleway-regular fs-20">David Letelier <a href="https://www.instagram.com/dave_letelier/" target="_blank">
+                            <img src="assets/img/img_Redes_Sociales/icons8-instagram-100-removebg-preview.png" alt="instagram" style="max-width: 30px; margin-right: 10px;">
+                        </a></span>
+                    </a>
+                    <button class="navbar-toggler custom-toggler mx-3" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon custom-toggler"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link px-3 text-light raleway-regular fs-20" href="#inicio">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 text-light raleway-regular fs-20" href="#My Projects">My Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 text-light raleway-regular fs-20" href="miHistoria.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 text-light raleway-regular fs-20" href="#contacto">Contact</a>
+                            </li>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle text-light" href="#my_work" type="button" data-bs-toggle="dropdown" aria-expanded="false">My Work</button>
+                                <ul class="dropdown-menu gris-500">
+                                    <li class="nav-item"><a class="dropdown-item gris-500 roboto-medium" href="musicVideos.html">Music Videos</a></li>
+                                    <li class="nav-item"><a class="dropdown-item gris-500 roboto-medium" href="lyricVideos.html">Lyric Videos</a></li>
+                                    <li class="nav-item"><a class="dropdown-item gris-500 roboto-medium" href="liveVisual.html">Visualizers & Live Visual</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <br><br><br>
+        <main>
+            <!--<section class="container pb-5">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="assets/img/carrusel1.png" class="d-block w-100" alt="carrusel1">
+                        </div>
+                        <div class="carousel-caption">
+                            <h1 class="animated-text text-light">Texto animado</h1>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="assets/img/carrusel2.png" class="d-block w-100" alt="carrusel2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/carrusel3.png" class="d-block w-100" alt="carrusel3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/carrusel4.png" class="d-block w-100" alt="carrusel4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/carrusel5.png" class="d-block w-100" alt="carrusel5">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>            
+            <script>
+                // Configuración del intervalo de tiempo (en milisegundos)
+                var intervalo = 3000; // Cambia este valor para ajustar la velocidad del carrusel
+            
+                // Iniciar el carrusel automáticamente
+                $('#carouselExampleCaptions').carousel();
+            
+                // Cambiar de diapositiva cada cierto intervalo de tiempo
+                setInterval(function() {
+                    $('#carouselExampleCaptions').carousel('next');
+                }, intervalo);
+            </script>-->
+            
+            <!--<hr class=" container text-light">
+            <section id="" class="container hide-on-small-screen my-5">
+                <div class="text-center text-white">
+                    <h4 class="roboto-medium">Promotional Video</h4>
+                </div>
+            </section>-->
+            <section class="container pb-5 video_section ">
+                <div class="d-flex justify-content-center">
+                    <video poster="https://i.ibb.co/ZJMkxwf/video-Principal2.png" 
+                        src="assets/videos/VIDEO PRINCIPAL/R021.mp4" 
+                        poster="https://i.ibb.co/ZJMkxwf/video-Principal2.png"  
+                        class="object-fit-contain" 
+                        width="100%" height="auto"  
+                        style="border-radius: 10px;" 
+                        autoplay playsinline>
+                    </video>
+                </div>
+            </section>
+            <hr class=" container text-light">
+            <section class="container hide-on-small-screen my-5">
+                <div class="text-center text-white">
+                    <h4 class="roboto-medium">Some of my Projects</h4>
+                </div>
+            </section>
+            <section id="My Projects" class="container hide-on-small-screen pb-5">
+                <div class="row justify-content-center gy-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID1" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>Manticora</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video src="assets/videos/VIDEOS INSTAGRAM/Manticora Dia de los Muertos.mp4" class="object-fit-contain"  style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "dave_letelier Manticora - "Día de los Muertos"
+                                    Official lyric video @wayne_joyner and I did for @manticora.official"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID2" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>For All We Know</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video src="assets/videos/VIDEOS INSTAGRAM/For All We Know Lifeline.mp4" class="object-fit-contain" style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "dave_letelier For All We Know - "Lifeline" - New lyric video for @forallweknowband 🤘🏻"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID3" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>Revolution Saints</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video src="assets/videos/VIDEOS INSTAGRAM/Revolution Saints Fall On My Knees.mp4" class="object-fit-contain" style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "dave_letelier Revolution Saints - "Fall On My Knees"
+                                    Lyric video my bro @wayne_joyner and I did for @revolutionsaintsofficial ! 🔥🤘🏻"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container hide-on-small-screen pb-5">
+                <div class="row justify-content-center gy-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID4" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>Ayreon</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video src="assets/videos/VIDEOS INSTAGRAM/Ayreon The Sixth Extinction.mp4" class="object-fit-contain" style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "dave_letelier Ayreon - "The Sixth Extinction" Last year Wayne and I got the 
+                                    chance to work on the visuals for the "Live Beneath The Waves" shows by 
+                                    @ayreon_official. Here's the one I did for one of my favorite tracks of 
+                                    the album, lots of stuff going on here! 🤘🏻💀🔥"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID5" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>Magoria</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video src="assets/videos/VIDEOS INSTAGRAM/Magoria Diamond In The Dark.mp4" class="object-fit-contain" style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "dave_letelier Magoria - "Diamond In The Dark"
+                                    Here's the video @mark.bogert and I did for @magoria_rockopera 's new single "Diamond In The Dark" 💎. 
+                                    A great pleasure to be working once again with such a talented and nice guy as Mark, on a project with 
+                                    so many amazing artists, really looking forward to the release of this album :)"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card card1 shadow-lg" style="background-color: rgba(173, 181, 189, 0.1);" onmouseover="enlargeCard(this)" onmouseout="resetCardSize(this)">
+                            <div class="card-header gris-700 text-center">
+                                <img class="rotacion" src="assets/img/img_Logos/logo3.1.png" alt="logo_DAVID6" style="width: 10%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title roboto-regular text-white text-center pb-3"><u>A New Dawn</u></h5>
+                                <div style="display: flex; justify-content: center;" class="pb-3">
+                                    <video src="assets/videos/VIDEOS INSTAGRAM/A New Dawn A New Dawn.mp4" class="object-fit-contain" style="width: 100%; border-radius: 20px;"></video>
+                                </div>                                
+                                <p class="card-text roboto-thin text-white text-justify">
+                                    "dave_letelier A New Dawn - "A New Dawn"
+                                    Here's the new video for this awesome track by @anewdawnrocks ! 🤘🏻"
+                                </p>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <div class="container pb-2" action="https://www.instagram.com/dave_letelier/" target="_blank" method="post">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-5">
+                    <button id="ver mas" type="submit" class="btn gris-600 text-white"><a class="text-light" href="https://www.instagram.com/dave_letelier/" target="_blank">See More</a></button>
+                </div>
+            </div>
+            <hr class=" container text-light">
+            <section id="destacados" class="container mt-5 pb-4">
+                <div class="text-center text-white mt-4 mb-4">
+                    <h4 class="roboto-medium">Featured Bands</h4>
+                </div>
+            </section>
+            <section class="container">
+                <div class="row justify-content-center gy-5">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 pb-5">
+                        <div class="card card2 shadow-lg mx-2 gris-700" onmouseover="enlargeCard2(this)" onmouseout="resetCardSize2(this)">
+                            <img src="assets/img/img_home/01_Magoria.jpg" class="card_img" alt="magoria">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Magoria:</h5><hr>
+                                <p class="card-text roboto-thin text-white">Magoria is a heavy metal band originating from Spain, 
+                                    formed in 2011. Drawing influences ranging from classic heavy metal to progressive metal.
+                                </p>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 pb-5">
+                        <div class="card card2 shadow-lg mx-2 gris-700" onmouseover="enlargeCard2(this)" onmouseout="resetCardSize2(this)">
+                            <img src="assets/img/img_home/03_For_All_We_Know.jpg" class="card_img" alt="for_all_we_know">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">For All We Know:</h5><hr>
+                                <p class="card-text roboto-thin text-white">The music of For All We Know is a fusion of various styles, 
+                                    spanning from progressive metal and alternative rock to symphonic metal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 pb-5">
+                        <div class="card card2 shadow-lg mx-2 gris-700" onmouseover="enlargeCard2(this)" onmouseout="resetCardSize2(this)">
+                            <img src="assets/img/img_home/05_A_New_Dawn.jpg" class="card_img" alt="a_new_dawn">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">A New Dawn:</h5><hr>
+                                <p class="card-text roboto-thin text-white">A New Dawn is a symphonic metal band originating from Spain, 
+                                    characterized by epic melodies and lyrics that explore themes of fantasy and deep emotions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 pb-5">
+                        <div class="card card2 shadow-lg mx-2 gris-700" onmouseover="enlargeCard2(this)" onmouseout="resetCardSize2(this)">
+                            <img src="assets/img/img_home/07_Alter_Bridge.jpg" class="card_img" alt="alter_bridge">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Alter Bridge:</h5><hr>
+                                <p class="card-text roboto-thin text-white">Alter Bridge is a rock band hailing from the United States, 
+                                    renowned for its powerful sound and emotive lyrics. Comprised of former members of Creed and talented 
+                                    musicians.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+            <section class="container">
+                <div class="row justify-content-center gy-5">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 pb-5">
+                        <div class="card card2 shadow-lg mx-2 gris-700" onmouseover="enlargeCard2(this)" onmouseout="resetCardSize2(this)">
+                            <img src="assets/img/img_home/09_Arch_Enemy.jpg" class="card_img" alt="Arch_Enemy">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Arch Enemy:</h5><hr>
+                                <p class="card-text roboto-thin text-white">Arch Enemy is a Swedish melodic death metal band that was formed 
+                                    in 1995. They are renowned for their aggressive yet melodic style, as well as their technical approach and 
+                                    instrumental virtuosity.
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 pb-5">
+                        <div class="card card2 shadow-lg mx-2 gris-700" onmouseover="enlargeCard2(this)" onmouseout="resetCardSize2(this)">
+                            <img src="assets/img/img_home/06_Ayreon.jpg" class="card_img" alt="Ayreon">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Ayreon:</h5><hr>
+                                <p class="card-text roboto-thin text-white">Ayreon is a Dutch musical project created by musician and composer 
+                                    Arjen Anthony Lucassen. Established in 1995, Ayreon is renowned for its focus on concepts and conceptual 
+                                    albums that blend a wide range of musical styles.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 pb-5">
+                        <div class="card card2 shadow-lg mx-2 gris-700" onmouseover="enlargeCard2(this)" onmouseout="resetCardSize2(this)">
+                            <img src="assets/img/img_home/08_Anubis_Gate.jpg" class="card_img" alt="Anubis_Gate">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Anubis Gate:</h5><hr>
+                                <p class="card-text roboto-thin text-white">Anubis Gate is a Danish progressive metal band formed in 2001 
+                                    in Copenhagen, Denmark. The band is characterized by its unique approach to progressive metal, blending 
+                                    elements from various subgenres such as power metal, symphonic metal, and melodic metal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 pb-5">
+                        <div class="card card2 shadow-lg mx-2 gris-700" onmouseover="enlargeCard2(this)" onmouseout="resetCardSize2(this)">
+                            <img src="assets/img/img_home/10_Black_Rose_Maze.jpg" class="card_img" alt="Black_Rose_Maze">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Black Rose Maze:</h5><hr>
+                                <p class="card-text roboto-thin text-white">Black Rose Maze is a musical project led by the talented Canadian 
+                                    vocalist Rosa Laricchiuta. The band blends elements of hard rock and melodic rock to create a distinctive 
+                                    and powerful sound.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+            <hr class=" container text-light">
+            <!-- Carrusel -->
+            <section class="container mt-5">                  
+                <div class="d-none d-md-block">
+                    <div class="text-center text-white mt-4 mb-4 pt-3 pb-3">
+                        <h4 class="roboto-medium">Bands that trusted me</h4>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide pb-5" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button style="background-color: rgb(255, 255, 255);" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active pr-3" aria-current="true" aria-label="Slide 1"></button>
+                            <button style="background-color: rgb(255, 255, 255);" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-flex justify-content-center">
+                                    <div class="me-4">
+                                        <img src="assets/img/img_Carrusel/carrusel_home/01_Magoria.jpg" class="d-block carrusel_inf img-fluid" alt="slider-1"
+                                            data-bs-toggle="tooltip" 
+                                            data-bs-placement="top" 
+                                            data-bs-title="Magoria" 
+                                            data-bs-custom-class="custom-tooltip shadow-lg">
+                                    </div>
+                                    <div class="me-4">
+                                        <img src="assets/img/img_Carrusel/carrusel_home/02_Manticora.jpg" class="d-block carrusel_inf img-fluid" alt="slider-2"
+                                            data-bs-toggle="tooltip" 
+                                            data-bs-placement="top" 
+                                            data-bs-title="Manticora" 
+                                            data-bs-custom-class="custom-tooltip shadow-lg">
+                                    </div>
+                                    <div class="me-4">
+                                        <img src="assets/img/img_Carrusel/carrusel_home/03_For_All_We_Know.jpg" class="d-block carrusel_inf img-fluid" alt="slider-3"
+                                            data-bs-toggle="tooltip" 
+                                            data-bs-placement="top" 
+                                            data-bs-title="For All We Know" 
+                                            data-bs-custom-class="custom-tooltip shadow-lg">
+                                    </div>
+                                    <div>
+                                        <img src="assets/img/img_Carrusel/carrusel_home/04_Revolution_Saints.jpg" class="d-block carrusel_inf img-fluid" alt="slider-4"
+                                            data-bs-toggle="tooltip" 
+                                            data-bs-placement="top" 
+                                            data-bs-title="Revolution Saints" 
+                                            data-bs-custom-class="custom-tooltip shadow-lg">
+                                    </div>                                
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center">
+                                    <div class="me-4">
+                                        <img src="assets/img/img_Carrusel/carrusel_home/05_A_New_Dawn.jpg" class="d-block carrusel_inf img-fluid" alt="slider-5"
+                                            data-bs-toggle="tooltip" 
+                                            data-bs-placement="top" 
+                                            data-bs-title="A New Dawn" 
+                                            data-bs-custom-class="custom-tooltip shadow-lg">
+                                    </div>
+                                    <div class="me-4">
+                                        <img src="assets/img/img_Carrusel/carrusel_home/06_Ayreon.jpg" class="d-block carrusel_inf img-fluid" alt="slider-6"
+                                            data-bs-toggle="tooltip" 
+                                            data-bs-placement="top" 
+                                            data-bs-title="Ayreon" 
+                                            data-bs-custom-class="custom-tooltip shadow-lg">
+                                    </div>
+                                    <div class="me-4">
+                                        <img src="assets/img/img_Carrusel/carrusel_home/07_Alter_Bridge.jpg" class="d-block carrusel_inf img-fluid" alt="slider-7"
+                                            data-bs-toggle="tooltip" 
+                                            data-bs-placement="top" 
+                                            data-bs-title="Alter Bridge" 
+                                            data-bs-custom-class="custom-tooltip shadow-lg">
+                                    </div>
+                                    <div class="me-4">
+                                        <img src="assets/img/img_Carrusel/carrusel_home/08_Anubis_Gate.jpg" class="d-block carrusel_inf img-fluid" alt="slider-8"
+                                            data-bs-toggle="tooltip" 
+                                            data-bs-placement="top" 
+                                            data-bs-title="Anubis Gate" 
+                                            data-bs-custom-class="custom-tooltip shadow-lg">
+                                    </div>                                
+                                </div>
+                            </div>    
+                        </div>                    
+                    </div>
+                </div>
+            </section>
+            <hr class="container text-light"> 
+            <section class="container my-3">
+                <div class="text-center text-white mt-4 mb-4 pt-4">
+                    <h4 class="roboto-medium">Contact</h4>
+                </div>
+            </section>
+            <section id="contacto" class="pb-5">
+                <div>
+                    <form id="formularioContacto" class="d-flex justify-center" action="https://formsubmit.co/contact@davidletelier.com" method="post" >
+                        <div class="container" style="width: 56rem;">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label text-light roboto-light">Name:</label>
+                                <input type="text" name="name" class="form-control" id="nombre" placeholder="Write your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label text-light roboto-light">Email:</label>
+                                <input type="email" name="email" class="form-control" id="correo" placeholder="Write your Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label text-light roboto-light">Message:</label>
+                                <textarea  name="comments" class="form-control" id="mensaje" rows="5" placeholder="Write your Message"></textarea>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-5">
+                                <button id="enviar" type="submit"  class="btn gris-600 text-white">Send</button>
+                            </div>
+                            <input type="hidden" name="_next" value="https://davidletelier.com/index.html">
+                            <input type="hidden" name="_captcha" value="false">
+                        </div>                        
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="gris-800 py-3">   
+            <section class="container">              
+                <div class="row justify-content-center">
+                    <div class="col-auto lobster-regular mx-4 py-4">
+                        <div class="text-center raleway-regular fs-20 text-light">
+                            <span>Chile © 2024 Jacob Diaz - Web Designer</span>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contact Me</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content gris-500">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Jacob Díaz</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div style="width: 50%; margin: 0 auto; text-align: centerñ">
+                                    <div>
+                                        <img src="assets/img/img_Jacob/photoJacob.jpeg" class="img-fluid BorderRaidus" alt="">
+                                    </div>
+                                </div>                                
+                                <form id="formularioContacto2" action="https://formsubmit.co/contactovimedia@gmail.com" method="post">
+                                    <div class="mb-3">
+                                        <label for="correo" class="col-form-label">Email:</label>
+                                        <input type="email" name="email" class="form-control" id="correo3" placeholder="Write your Email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="mensaje" class="col-form-label">Message:</label>
+                                        <textarea name="comments" class="form-control" id="mensaje3" placeholder="Write your Message"></textarea>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button id="enviar" type="submit" class="btn gris-600 text-light">Send</button>                          
+                                    </div>
+                                    <input type="hidden" name="_next" value="https://davidletelier.com/index.html">
+                                    <input type="hidden" name="_captcha" value="false">
+                                </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>           
+        </footer>
+        <!-- jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Boostrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous">
+        </script>  
+        <script src="assets/js/script.js"></script>
+        <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
+
+        <!-- Plugin Equal Heights, este plugin nos ayuda a que las card siempre tengan el mismo tamaño con el resto independiente de su contenido-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+    </body>
+</html>
